@@ -1,4 +1,4 @@
-From 3e19eac807a8870ce29cb9b23090daf0f403e930 Mon Sep 17 00:00:00 2001
+From be5de663496e410de3cf3b30b91e81d58f8d9033 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Fri, 28 Dec 2012 11:26:59 +0200
 Subject: [PATCH 010/184] am335x-dt: Add I2C0 pinctrl entries.
@@ -8,7 +8,7 @@ bootloader.
 
 Signed-off-by: Pantelis Antoniou <panto@antoniou-consulting.com>
 ---
- arch/arm/boot/dts/am335x-bone-common.dtsi | 8 ++++++++
+ arch/arm/boot/dts/am335x-bone-common.dtsi |    8 ++++++++
  1 file changed, 8 insertions(+)
 
 diff --git a/arch/arm/boot/dts/am335x-bone-common.dtsi b/arch/arm/boot/dts/am335x-bone-common.dtsi
@@ -38,5 +38,5 @@ index 312ded8..e43417b 100644
  	tps: tps@24 {
  		reg = <0x24>;
 -- 
-1.9.1
+1.7.10.4
 

@@ -1,18 +1,18 @@
-From ebffa3423e6047f9fbdeb698fad014b155dc2fd0 Mon Sep 17 00:00:00 2001
+From ce205fae8676f99c1d80dc5a56da99b24f713935 Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Fri, 21 Dec 2012 09:08:49 +0100
 Subject: [PATCH 001/184] add dvi pinmuxes to am33xx.dtsi
 
 Signed-off-by: Koen Kooi <koen@dominion.thruhere.net>
 ---
- arch/arm/boot/dts/am33xx.dtsi | 54 +++++++++++++++++++++++++++++++++++++++++++
+ arch/arm/boot/dts/am33xx.dtsi |   54 +++++++++++++++++++++++++++++++++++++++++
  1 file changed, 54 insertions(+)
 
 diff --git a/arch/arm/boot/dts/am33xx.dtsi b/arch/arm/boot/dts/am33xx.dtsi
-index e0394d3..f1f1ab8 100644
+index 6dcd42a..1b91637 100644
 --- a/arch/arm/boot/dts/am33xx.dtsi
 +++ b/arch/arm/boot/dts/am33xx.dtsi
-@@ -72,6 +72,60 @@
+@@ -67,6 +67,60 @@
  		#size-cells = <0>;
  		pinctrl-single,register-width = <32>;
  		pinctrl-single,function-mask = <0x7f>;
@@ -74,5 +74,5 @@ index e0394d3..f1f1ab8 100644
  
  	/*
 -- 
-1.9.1
+1.7.10.4
 

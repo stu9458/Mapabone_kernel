@@ -1,4 +1,4 @@
-From 8a967cf22da36d63358eef3183a53f3b36bbecd7 Mon Sep 17 00:00:00 2001
+From 43e2c84351159236f7b049415c99e03c52d38ed1 Mon Sep 17 00:00:00 2001
 From: Matt Ranostay <mranostay@gmail.com>
 Date: Wed, 7 Aug 2013 14:09:41 +0000
 Subject: [PATCH 4/4] pps-gpio: add pinctrl suppport
@@ -9,7 +9,7 @@ repective GPIO muxing if applicable.
 Signed-off-by: Matt Ranostay <mranostay@gmail.com>
 -
 ---
- drivers/pps/clients/pps-gpio.c | 9 +++++++++
+ drivers/pps/clients/pps-gpio.c |    9 +++++++++
  1 file changed, 9 insertions(+)
 
 diff --git a/drivers/pps/clients/pps-gpio.c b/drivers/pps/clients/pps-gpio.c
@@ -47,5 +47,5 @@ index 9b405b3..06f63b1 100644
  	ret = pps_gpio_setup(pdev);
  	if (ret)
 -- 
-1.9.1
+1.7.10.4
 

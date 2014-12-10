@@ -1,10 +1,10 @@
-From 9db4a65621e20d5f43f8f0fb9eb8b948d9e33168 Mon Sep 17 00:00:00 2001
+From 451fc32f6d206fb0986b48cb978e29776d7e8007 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Tue, 15 Jan 2013 20:06:37 +0200
 Subject: [PATCH 073/184] defconfig: Update bone default config
 
 ---
- defconfig | 72 +++++++++++++++++++++++++++++++++------------------------------
+ defconfig |   72 ++++++++++++++++++++++++++++++++-----------------------------
  1 file changed, 38 insertions(+), 34 deletions(-)
 
 diff --git a/defconfig b/defconfig
@@ -169,5 +169,5 @@ index 0817f18..8902d3f 100644
  
  #
 -- 
-1.9.1
+1.7.10.4
 

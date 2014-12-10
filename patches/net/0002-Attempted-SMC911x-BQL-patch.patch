@@ -1,13 +1,13 @@
-From 6e9d34a52ccfb18da1564fb16fd92621de65ae3e Mon Sep 17 00:00:00 2001
+From 728aa4ece03b9ec108fd754c825b0e9cc1de90ac Mon Sep 17 00:00:00 2001
 From: "Paul E. McKenney" <paulmck@linux.vnet.ibm.com>
 Date: Thu, 29 Nov 2012 11:17:05 +0100
-Subject: [PATCH 2/7] Attempted SMC911x BQL patch
+Subject: [PATCH 2/6] Attempted SMC911x BQL patch
 
 First attempt at BQL on smsc911x.
 
 Signed-off-by: Paul E. McKenney <paulmck@linux.vnet.ibm.com>
 ---
- drivers/net/ethernet/smsc/smsc911x.c | 6 ++++++
+ drivers/net/ethernet/smsc/smsc911x.c |    6 ++++++
  1 file changed, 6 insertions(+)
 
 diff --git a/drivers/net/ethernet/smsc/smsc911x.c b/drivers/net/ethernet/smsc/smsc911x.c
@@ -56,5 +56,5 @@ index e112877..8907fde 100644
  	skb_tx_timestamp(skb);
  	dev_kfree_skb(skb);
 -- 
-1.9.1
+1.7.10.4
 

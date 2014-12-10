@@ -1,4 +1,4 @@
-From f8234fc16ad99bbfe9fc48e58a436a220cab3d24 Mon Sep 17 00:00:00 2001
+From e4d8448d589898a885f9305ab212786012a0b990 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Thu, 3 Jan 2013 11:46:39 +0200
 Subject: [PATCH 024/184] OF: export of_property_notify
@@ -7,8 +7,8 @@ of_property_notify can be utilized by other users too, export it.
 
 Signed-off-by: Pantelis Antoniou <panto@antoniou-consulting.com>
 ---
- drivers/of/base.c  |  8 +-------
- include/linux/of.h | 11 +++++++++++
+ drivers/of/base.c  |    8 +-------
+ include/linux/of.h |   11 +++++++++++
  2 files changed, 12 insertions(+), 7 deletions(-)
 
 diff --git a/drivers/of/base.c b/drivers/of/base.c
@@ -60,5 +60,5 @@ index 2ff35b5..aea3694 100644
  extern int of_alias_get_id(struct device_node *np, const char *stem);
  
 -- 
-1.9.1
+1.7.10.4
 

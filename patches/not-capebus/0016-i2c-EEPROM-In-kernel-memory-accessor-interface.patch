@@ -1,4 +1,4 @@
-From 35588652b7c5a5ab73aedea7e23d465b5e7a0139 Mon Sep 17 00:00:00 2001
+From 81ac42ac354ebd8f0c02f7c1cb78bd50765cd990 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Thu, 13 Dec 2012 11:23:21 +0200
 Subject: [PATCH 016/184] i2c-EEPROM: In kernel memory accessor interface
@@ -8,8 +8,8 @@ interface. Extend at24 to use it via the command interface.
 
 Signed-off-by: Pantelis Antoniou <panto@antoniou-consulting.com>
 ---
- drivers/misc/eeprom/at24.c | 23 ++++++++++++++++++
- include/linux/i2c/eeprom.h | 59 ++++++++++++++++++++++++++++++++++++++++++++++
+ drivers/misc/eeprom/at24.c |   23 +++++++++++++++++
+ include/linux/i2c/eeprom.h |   59 ++++++++++++++++++++++++++++++++++++++++++++
  2 files changed, 82 insertions(+)
  create mode 100644 include/linux/i2c/eeprom.h
 
@@ -127,5 +127,5 @@ index 0000000..1393980
 +
 +#endif
 -- 
-1.9.1
+1.7.10.4
 

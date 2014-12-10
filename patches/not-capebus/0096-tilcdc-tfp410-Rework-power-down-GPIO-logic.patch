@@ -1,4 +1,4 @@
-From 60fe42e3254f0f50db7a5efde68df5fe0b058b03 Mon Sep 17 00:00:00 2001
+From 0ea808bd953ad0124a305fed7f39cd241f149adb Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Wed, 30 Jan 2013 20:05:05 +0200
 Subject: [PATCH 096/184] tilcdc-tfp410: Rework power down GPIO logic
@@ -7,7 +7,7 @@ Rework power down GPIO logic to be configurable.
 
 Signed-off-by: Pantelis Antoniou <panto@antoniou-consulting.com>
 ---
- drivers/gpu/drm/tilcdc/tilcdc_tfp410.c | 25 +++++++++++++++----------
+ drivers/gpu/drm/tilcdc/tilcdc_tfp410.c |   25 +++++++++++++++----------
  1 file changed, 15 insertions(+), 10 deletions(-)
 
 diff --git a/drivers/gpu/drm/tilcdc/tilcdc_tfp410.c b/drivers/gpu/drm/tilcdc/tilcdc_tfp410.c
@@ -76,5 +76,5 @@ index c9cd8f1..7065dfa 100644
  			dev_info(&pdev->dev, "Power GPIO active low, initial state set to low\n");
  		} else {
 -- 
-1.9.1
+1.7.10.4
 

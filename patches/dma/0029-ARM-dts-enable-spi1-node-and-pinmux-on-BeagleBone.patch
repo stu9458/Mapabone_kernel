@@ -1,4 +1,4 @@
-From 323ac8efb4665d0939f30cbd4901e90643bd5b80 Mon Sep 17 00:00:00 2001
+From 83178ea8b6526ed247696c7393b2e3b88a69e486 Mon Sep 17 00:00:00 2001
 From: Matt Porter <mporter@ti.com>
 Date: Thu, 10 Jan 2013 19:13:30 -0500
 Subject: [PATCH 29/35] ARM: dts: enable spi1 node and pinmux on BeagleBone
@@ -8,7 +8,7 @@ pins.
 
 Signed-off-by: Matt Porter <mporter@ti.com>
 ---
- arch/arm/boot/dts/am335x-bone.dts | 15 ++++++++++++++-
+ arch/arm/boot/dts/am335x-bone.dts |   15 ++++++++++++++-
  1 file changed, 14 insertions(+), 1 deletion(-)
 
 diff --git a/arch/arm/boot/dts/am335x-bone.dts b/arch/arm/boot/dts/am335x-bone.dts
@@ -49,5 +49,5 @@ index a154ce0..ccff86a 100644
 +	status = "okay";
 +};
 -- 
-1.9.1
+1.7.10.4
 

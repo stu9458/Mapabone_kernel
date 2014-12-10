@@ -1,4 +1,4 @@
-From a5a42d35f3749c1758187c35b85ef430efc389b0 Mon Sep 17 00:00:00 2001
+From 01f0e3d73f3f2cccdfa4e221fc9d31a2861492c4 Mon Sep 17 00:00:00 2001
 From: Robert Nelson <robertcnelson@gmail.com>
 Date: Mon, 21 Jan 2013 11:47:02 -0600
 Subject: [PATCH 02/10] Beagle: expansion: add zippy
@@ -238,5 +238,5 @@ index 16fd530..8f3ba5b 100644
  	usbhs_init(&usbhs_bdata);
  	board_nand_init(omap3beagle_nand_partitions,
 -- 
-1.9.1
+1.8.1.4
 

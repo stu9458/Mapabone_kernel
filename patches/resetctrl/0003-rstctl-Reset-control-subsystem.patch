@@ -1,4 +1,4 @@
-From 71ec8d4645895fb82672a4eec44e7c3d2ffc5c0a Mon Sep 17 00:00:00 2001
+From 016a4e0e2476dcd17ebd80cedd26ea213cfb4ff1 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Thu, 11 Apr 2013 18:14:52 +0300
 Subject: [PATCH 03/11] rstctl: Reset control subsystem
@@ -8,15 +8,15 @@ reset conditions.
 
 Signed-off-by: Pantelis Antoniou <panto@antoniou-consulting.com>
 ---
- drivers/Kconfig                       |   2 +
- drivers/Makefile                      |   2 +
- drivers/rstctl/Kconfig                |  30 +++
- drivers/rstctl/Makefile               |   8 +
- drivers/rstctl/core.c                 | 368 ++++++++++++++++++++++++++++++++++
- drivers/rstctl/rstctl-gpio.c          | 259 ++++++++++++++++++++++++
- drivers/rstctl/rstctl-test-consumer.c |  82 ++++++++
- drivers/rstctl/rstctl-test.c          | 138 +++++++++++++
- include/linux/rstctl.h                |  71 +++++++
+ drivers/Kconfig                       |    2 +
+ drivers/Makefile                      |    2 +
+ drivers/rstctl/Kconfig                |   30 +++
+ drivers/rstctl/Makefile               |    8 +
+ drivers/rstctl/core.c                 |  368 +++++++++++++++++++++++++++++++++
+ drivers/rstctl/rstctl-gpio.c          |  259 +++++++++++++++++++++++
+ drivers/rstctl/rstctl-test-consumer.c |   82 ++++++++
+ drivers/rstctl/rstctl-test.c          |  138 +++++++++++++
+ include/linux/rstctl.h                |   71 +++++++
  9 files changed, 960 insertions(+)
  create mode 100644 drivers/rstctl/Kconfig
  create mode 100644 drivers/rstctl/Makefile
@@ -1049,5 +1049,5 @@ index 0000000..b2e674a
 +
 +#endif
 -- 
-1.9.1
+1.7.10.4
 

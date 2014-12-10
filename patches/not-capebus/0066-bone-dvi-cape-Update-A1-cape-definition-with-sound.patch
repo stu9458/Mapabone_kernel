@@ -1,4 +1,4 @@
-From 6f83341ed9209209507f061f11ea3931c2b75fd4 Mon Sep 17 00:00:00 2001
+From b4a87d4bd2b02d848709764e3d8ace0869f1c7bc Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Tue, 15 Jan 2013 12:27:05 +0200
 Subject: [PATCH 066/184] bone-dvi-cape: Update A1 cape definition with sound
@@ -7,7 +7,7 @@ Add sound definitions for the reworked A1 cape definition.
 
 Signed-off-by: Pantelis Antoniou <panto@antoniou-consulting.com>
 ---
- firmware/capes/cape-bone-dvi-00A1.dts | 74 +++++++++++++++++++++++++++++++++--
+ firmware/capes/cape-bone-dvi-00A1.dts |   74 +++++++++++++++++++++++++++++++--
  1 file changed, 70 insertions(+), 4 deletions(-)
 
 diff --git a/firmware/capes/cape-bone-dvi-00A1.dts b/firmware/capes/cape-bone-dvi-00A1.dts
@@ -129,5 +129,5 @@ index bd275e0..12b8526 100644
 +	};
  };
 -- 
-1.9.1
+1.7.10.4
 

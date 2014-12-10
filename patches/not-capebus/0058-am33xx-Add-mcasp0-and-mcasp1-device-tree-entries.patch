@@ -1,4 +1,4 @@
-From fef04558c7ab8212a3e0c6ef03e81cac8e188e74 Mon Sep 17 00:00:00 2001
+From eee1351f0ff9846c729ae8352acceae44d5ec97c Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Thu, 10 Jan 2013 20:37:45 +0200
 Subject: [PATCH 058/184] am33xx: Add mcasp0 and mcasp1 device tree entries
@@ -7,14 +7,14 @@ Add missing mcasp entries in teh am33xx.dtsi include file.
 
 Signed-off-by: Pantelis Antoniou <panto@antoniou-consulting.com>
 ---
- arch/arm/boot/dts/am33xx.dtsi | 21 +++++++++++++++++++++
+ arch/arm/boot/dts/am33xx.dtsi |   21 +++++++++++++++++++++
  1 file changed, 21 insertions(+)
 
 diff --git a/arch/arm/boot/dts/am33xx.dtsi b/arch/arm/boot/dts/am33xx.dtsi
-index 9d57fea..a5e738f 100644
+index 9142e54..cc1c013 100644
 --- a/arch/arm/boot/dts/am33xx.dtsi
 +++ b/arch/arm/boot/dts/am33xx.dtsi
-@@ -675,5 +675,26 @@
+@@ -670,5 +670,26 @@
  				&edma 5>;
  			dma-names = "tx", "rx";
  		};
@@ -42,5 +42,5 @@ index 9d57fea..a5e738f 100644
  	};
  };
 -- 
-1.9.1
+1.7.10.4
 

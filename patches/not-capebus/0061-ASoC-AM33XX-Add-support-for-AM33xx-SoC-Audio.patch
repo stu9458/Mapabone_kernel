@@ -1,4 +1,4 @@
-From 6761e5b4745210adeda51ba4419e1f2c6aea9ca4 Mon Sep 17 00:00:00 2001
+From 7159e07e521222d61005132905b86e32aedb3f45 Mon Sep 17 00:00:00 2001
 From: "Hebbar, Gururaja" <gururaja.hebbar@ti.com>
 Date: Wed, 1 Aug 2012 12:04:22 +0530
 Subject: [PATCH 061/184] ASoC: AM33XX: Add support for AM33xx SoC Audio
@@ -8,8 +8,8 @@ Kconfig and makefile to enable build or McASP, PCM & Codec drivers
 
 Signed-off-by: Hebbar, Gururaja <gururaja.hebbar@ti.com>
 ---
- sound/soc/davinci/Kconfig  | 8 ++++++++
- sound/soc/davinci/Makefile | 3 +++
+ sound/soc/davinci/Kconfig  |    8 ++++++++
+ sound/soc/davinci/Makefile |    3 +++
  2 files changed, 11 insertions(+)
 
 diff --git a/sound/soc/davinci/Kconfig b/sound/soc/davinci/Kconfig
@@ -55,5 +55,5 @@ index a93679d..3e07a53 100644
  obj-$(CONFIG_SND_DA830_SOC_EVM) += snd-soc-evm.o
  obj-$(CONFIG_SND_DA850_SOC_EVM) += snd-soc-evm.o
 -- 
-1.9.1
+1.7.10.4
 

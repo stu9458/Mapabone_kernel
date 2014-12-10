@@ -1,4 +1,4 @@
-From 7a572a542d3db7fd330240265584a78facd96de1 Mon Sep 17 00:00:00 2001
+From fd14839e7ed04a9843e03772094ac9ec172a41ab Mon Sep 17 00:00:00 2001
 From: Rob Clark <robdclark@gmail.com>
 Date: Mon, 10 Dec 2012 10:49:46 -0600
 Subject: [PATCH 02/12] drm: small fix in drm_send_vblank_event()
@@ -9,7 +9,7 @@ behavior with the different drivers.
 
 Signed-off-by: Rob Clark <robdclark@gmail.com>
 ---
- drivers/gpu/drm/drm_irq.c | 1 +
+ drivers/gpu/drm/drm_irq.c |    1 +
  1 file changed, 1 insertion(+)
 
 diff --git a/drivers/gpu/drm/drm_irq.c b/drivers/gpu/drm/drm_irq.c
@@ -25,5 +25,5 @@ index 19c01ca..9bb83a5 100644
  }
  EXPORT_SYMBOL(drm_send_vblank_event);
 -- 
-1.9.1
+1.7.10.4
 

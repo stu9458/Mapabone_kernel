@@ -1,4 +1,4 @@
-From a3d39d91264d1908606ddc3b14698b41cd47e5fc Mon Sep 17 00:00:00 2001
+From 14f19341a327b5d1b09b8b57281821a96babffe2 Mon Sep 17 00:00:00 2001
 From: Guenter Roeck <linux@roeck-us.net>
 Date: Fri, 1 Mar 2013 15:21:00 +0000
 Subject: [PATCH 07/11] iio/imu: inv_mpu6050 depends on IIO_BUFFER
@@ -15,7 +15,7 @@ function ‘iio_push_to_buffers’ [-Werror=implicit-function-declaration]
 Signed-off-by: Guenter Roeck <linux@roeck-us.net>
 Signed-off-by: Jonathan Cameron <jic23@kernel.org>
 ---
- drivers/iio/imu/inv_mpu6050/Kconfig | 1 +
+ drivers/iio/imu/inv_mpu6050/Kconfig |    1 +
  1 file changed, 1 insertion(+)
 
 diff --git a/drivers/iio/imu/inv_mpu6050/Kconfig b/drivers/iio/imu/inv_mpu6050/Kconfig
@@ -31,5 +31,5 @@ index b5cfa3a..361b232 100644
  	help
  	  This driver supports the Invensense MPU6050 devices.
 -- 
-1.9.1
+1.7.10.4
 

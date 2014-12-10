@@ -1,4 +1,4 @@
-From 9861e8c633ea3943bc94214f4403af28b474d3ea Mon Sep 17 00:00:00 2001
+From 8dd33670e3ea80174b131a30f510260a4cf338b1 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Fri, 28 Dec 2012 21:09:01 +0200
 Subject: [PATCH 037/184] capemgr: Geiger cape definition
@@ -7,7 +7,7 @@ Geiger Cape definition
 
 Signed-off-by: Pantelis Antoniou <panto@antoniou-consulting.com>
 ---
- firmware/capes/cape-bone-geiger-00A0.dts | 98 ++++++++++++++++++++++++++++++++
+ firmware/capes/cape-bone-geiger-00A0.dts |   98 ++++++++++++++++++++++++++++++
  1 file changed, 98 insertions(+)
  create mode 100644 firmware/capes/cape-bone-geiger-00A0.dts
 
@@ -116,5 +116,5 @@ index 0000000..4003161
 +	};
 +};
 -- 
-1.9.1
+1.7.10.4
 

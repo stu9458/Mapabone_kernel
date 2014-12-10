@@ -1,4 +1,4 @@
-From 7033082be43d45efd1d7f27f2b6e1c7f4c8dd50b Mon Sep 17 00:00:00 2001
+From 02a5d40355774abb096648d2ca15417cc46c4519 Mon Sep 17 00:00:00 2001
 From: Rob Clark <robdclark@gmail.com>
 Date: Tue, 8 Jan 2013 19:21:02 -0600
 Subject: [PATCH 08/12] drm/i2c: nxp-tda998x (v3)
@@ -11,9 +11,9 @@ v3: add Kconfig, fix dup'd MODULE_DESCRIPTION
 
 Signed-off-by: Rob Clark <robdclark@gmail.com>
 ---
- drivers/gpu/drm/i2c/Kconfig       |   6 +
- drivers/gpu/drm/i2c/Makefile      |   3 +
- drivers/gpu/drm/i2c/tda998x_drv.c | 906 ++++++++++++++++++++++++++++++++++++++
+ drivers/gpu/drm/i2c/Kconfig       |    6 +
+ drivers/gpu/drm/i2c/Makefile      |    3 +
+ drivers/gpu/drm/i2c/tda998x_drv.c |  906 +++++++++++++++++++++++++++++++++++++
  3 files changed, 915 insertions(+)
  create mode 100644 drivers/gpu/drm/i2c/tda998x_drv.c
 
@@ -956,5 +956,5 @@ index 0000000..e68b58a
 +module_init(tda998x_init);
 +module_exit(tda998x_exit);
 -- 
-1.9.1
+1.7.10.4
 

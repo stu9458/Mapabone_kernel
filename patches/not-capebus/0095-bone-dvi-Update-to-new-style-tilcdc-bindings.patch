@@ -1,4 +1,4 @@
-From cf3ccf3e17e7391c26911aca879a1e2499d31a13 Mon Sep 17 00:00:00 2001
+From a214af08cd59bc78820ba00e6b4ac4c06d78343d Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Wed, 30 Jan 2013 18:17:16 +0200
 Subject: [PATCH 095/184] bone-dvi: Update to new style tilcdc bindings
@@ -7,9 +7,9 @@ Binding differences and place the GPIOs to the panels.
 
 Signed-off-by: Pantelis Antoniou <panto@antoniou-consulting.com>
 ---
- firmware/capes/cape-bone-dvi-00A0.dts | 8 +++++---
- firmware/capes/cape-bone-dvi-00A1.dts | 8 +++++---
- firmware/capes/cape-bone-dvi-00A2.dts | 8 +++++---
+ firmware/capes/cape-bone-dvi-00A0.dts |    8 +++++---
+ firmware/capes/cape-bone-dvi-00A1.dts |    8 +++++---
+ firmware/capes/cape-bone-dvi-00A2.dts |    8 +++++---
  3 files changed, 15 insertions(+), 9 deletions(-)
 
 diff --git a/firmware/capes/cape-bone-dvi-00A0.dts b/firmware/capes/cape-bone-dvi-00A0.dts
@@ -154,5 +154,5 @@ index 54fba3f..1dbaef8 100644
  
  		};
 -- 
-1.9.1
+1.7.10.4
 

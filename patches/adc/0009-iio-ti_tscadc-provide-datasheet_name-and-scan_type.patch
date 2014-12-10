@@ -1,4 +1,4 @@
-From 6ba8ef5fafd7a5b2f31121f1ce1681c7bfe47895 Mon Sep 17 00:00:00 2001
+From 646c9a1a83ba73a2c8b80c57ed85576fc04572b5 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Wed, 12 Jun 2013 18:58:12 +0200
 Subject: [PATCH 09/20] iio: ti_tscadc: provide datasheet_name and scan_type
@@ -16,7 +16,7 @@ Signed-off-by: Pantelis Antoniou <panto@antoniou-consulting.com>
 Signed-off-by: Felipe Balbi <balbi@ti.com>
 Signed-off-by: Sebastian Andrzej Siewior <bigeasy@linutronix.de>
 ---
- drivers/iio/adc/ti_am335x_adc.c | 29 ++++++++++++++++++++++++-----
+ drivers/iio/adc/ti_am335x_adc.c |   29 ++++++++++++++++++++++++-----
  1 file changed, 24 insertions(+), 5 deletions(-)
 
 diff --git a/drivers/iio/adc/ti_am335x_adc.c b/drivers/iio/adc/ti_am335x_adc.c
@@ -85,5 +85,5 @@ index 4f4c82e..25feb62 100644
  
  static void tiadc_channels_remove(struct iio_dev *indio_dev)
 -- 
-1.9.1
+1.7.10.4
 

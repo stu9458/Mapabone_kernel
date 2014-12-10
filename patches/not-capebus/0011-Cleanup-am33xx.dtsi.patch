@@ -1,17 +1,17 @@
-From f028d2f86184d101762d0f2c9f79c1677ed4bc41 Mon Sep 17 00:00:00 2001
+From 8bb66385a3c33dfe3c56ab6539d5a6a2f0e81f4f Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Fri, 28 Dec 2012 20:15:52 +0200
 Subject: [PATCH 011/184] Cleanup am33xx.dtsi
 
 ---
- arch/arm/boot/dts/am33xx.dtsi | 54 -------------------------------------------
+ arch/arm/boot/dts/am33xx.dtsi |   54 -----------------------------------------
  1 file changed, 54 deletions(-)
 
 diff --git a/arch/arm/boot/dts/am33xx.dtsi b/arch/arm/boot/dts/am33xx.dtsi
-index cb50403..3cab673 100644
+index 5c6e272..5218fbe 100644
 --- a/arch/arm/boot/dts/am33xx.dtsi
 +++ b/arch/arm/boot/dts/am33xx.dtsi
-@@ -72,60 +72,6 @@
+@@ -67,60 +67,6 @@
  		#size-cells = <0>;
  		pinctrl-single,register-width = <32>;
  		pinctrl-single,function-mask = <0x7f>;
@@ -73,5 +73,5 @@ index cb50403..3cab673 100644
  
  	/*
 -- 
-1.9.1
+1.7.10.4
 

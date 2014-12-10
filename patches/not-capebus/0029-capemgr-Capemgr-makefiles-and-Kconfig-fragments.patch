@@ -1,4 +1,4 @@
-From 93f9510ae0fa539dbc49f7659944ee5dcc744b78 Mon Sep 17 00:00:00 2001
+From a3d9b745c46f2b1ab70a14c6150ecb2aa0a42c7f Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Fri, 28 Dec 2012 20:56:48 +0200
 Subject: [PATCH 029/184] capemgr: Capemgr makefiles and Kconfig fragments.
@@ -10,13 +10,13 @@ Makefile and Kconfig fragments.
 
 Signed-off-by: Pantelis Antoniou <panto@antoniou-consulting.com>
 ---
- arch/arm/mach-omap2/Kconfig           |  2 ++
- drivers/misc/Kconfig                  |  2 ++
- drivers/misc/Makefile                 |  1 +
- drivers/misc/cape/Kconfig             |  5 +++++
- drivers/misc/cape/Makefile            |  5 +++++
- drivers/misc/cape/beaglebone/Kconfig  | 18 ++++++++++++++++++
- drivers/misc/cape/beaglebone/Makefile |  6 ++++++
+ arch/arm/mach-omap2/Kconfig           |    2 ++
+ drivers/misc/Kconfig                  |    2 ++
+ drivers/misc/Makefile                 |    1 +
+ drivers/misc/cape/Kconfig             |    5 +++++
+ drivers/misc/cape/Makefile            |    5 +++++
+ drivers/misc/cape/beaglebone/Kconfig  |   18 ++++++++++++++++++
+ drivers/misc/cape/beaglebone/Makefile |    6 ++++++
  7 files changed, 39 insertions(+)
  create mode 100644 drivers/misc/cape/Kconfig
  create mode 100644 drivers/misc/cape/Makefile
@@ -115,5 +115,5 @@ index 0000000..b79ace4
 +obj-$(CONFIG_CAPE_BEAGLEBONE)		+= capemgr.o
 +obj-$(CONFIG_CAPE_BEAGLEBONE_GEIGER)	+= cape-bone-geiger.o
 -- 
-1.9.1
+1.7.10.4
 

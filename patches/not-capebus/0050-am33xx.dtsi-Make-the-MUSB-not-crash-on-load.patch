@@ -1,4 +1,4 @@
-From 9522342e51687a6ead8e12ecba5e021c41f49482 Mon Sep 17 00:00:00 2001
+From 37a8b7377545447544f4615fe0491ad8f25771ce Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Thu, 10 Jan 2013 16:22:59 +0200
 Subject: [PATCH 050/184] am33xx.dtsi: Make the MUSB not crash on load
@@ -8,14 +8,14 @@ Remove the duplicate, but it still doesn't work.
 
 Signed-off-by: Pantelis Antoniou <panto@antoniou-consulting.com>
 ---
- arch/arm/boot/dts/am33xx.dtsi | 67 ++++---------------------------------------
+ arch/arm/boot/dts/am33xx.dtsi |   67 ++++-------------------------------------
  1 file changed, 6 insertions(+), 61 deletions(-)
 
 diff --git a/arch/arm/boot/dts/am33xx.dtsi b/arch/arm/boot/dts/am33xx.dtsi
-index 934422a..9d57fea 100644
+index c9eee93..9142e54 100644
 --- a/arch/arm/boot/dts/am33xx.dtsi
 +++ b/arch/arm/boot/dts/am33xx.dtsi
-@@ -275,66 +275,6 @@
+@@ -270,66 +270,6 @@
  			status = "disabled";
  		};
  
@@ -82,7 +82,7 @@ index 934422a..9d57fea 100644
  		wdt2: wdt@44e35000 {
  			compatible = "ti,omap3-wdt";
  			ti,hwmods = "wd_timer2";
-@@ -540,6 +480,11 @@
+@@ -535,6 +475,11 @@
  				&edma 45>;
  			dma-names = "tx0", "rx0", "tx1", "rx1";
  			status = "disabled";
@@ -94,7 +94,7 @@ index 934422a..9d57fea 100644
  		};
  
  		usb@47400000 {
-@@ -554,7 +499,7 @@
+@@ -549,7 +494,7 @@
  			num-eps = <16>;
  			ram-bits = <12>;
  			port0-mode = <3>;
@@ -104,5 +104,5 @@ index 934422a..9d57fea 100644
  			ti,hwmods = "usb_otg_hs";
  		};
 -- 
-1.9.1
+1.7.10.4
 

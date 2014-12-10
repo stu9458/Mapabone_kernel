@@ -1,4 +1,4 @@
-From 9de96ba4a1a8a8006a451ee623a4402e90f96941 Mon Sep 17 00:00:00 2001
+From df56bc5114e81e73f3169d24b8de2a37e305d934 Mon Sep 17 00:00:00 2001
 From: Matt Porter <mporter@ti.com>
 Date: Wed, 10 Oct 2012 15:14:03 -0400
 Subject: [PATCH 23/35] ARM: dts: add AM33XX MMC support
@@ -9,10 +9,10 @@ am335x-evmsk.
 Signed-off-by: Matt Porter <mporter@ti.com>
 Acked-by: Tony Lindgren <tony@atomide.com>
 ---
- arch/arm/boot/dts/am335x-bone.dts  |  7 +++++++
- arch/arm/boot/dts/am335x-evm.dts   |  7 +++++++
- arch/arm/boot/dts/am335x-evmsk.dts |  7 +++++++
- arch/arm/boot/dts/am33xx.dtsi      | 28 ++++++++++++++++++++++++++++
+ arch/arm/boot/dts/am335x-bone.dts  |    7 +++++++
+ arch/arm/boot/dts/am335x-evm.dts   |    7 +++++++
+ arch/arm/boot/dts/am335x-evmsk.dts |    7 +++++++
+ arch/arm/boot/dts/am33xx.dtsi      |   28 ++++++++++++++++++++++++++++
  4 files changed, 49 insertions(+)
 
 diff --git a/arch/arm/boot/dts/am335x-bone.dts b/arch/arm/boot/dts/am335x-bone.dts
@@ -118,5 +118,5 @@ index e711ffb..278b75d 100644
  			compatible = "ti,omap3-wdt";
  			ti,hwmods = "wd_timer2";
 -- 
-1.9.1
+1.7.10.4
 

@@ -1,14 +1,14 @@
-From 7c5e3d8226a3f53223e1e1413534d141dd296e0b Mon Sep 17 00:00:00 2001
+From f86bc01477916e2c4dd39b7a7e7b8e7b71ee42a6 Mon Sep 17 00:00:00 2001
 From: Cody Lacey <clacey@ti.com>
 Date: Fri, 9 Aug 2013 14:10:45 -0500
 Subject: [PATCH 26/27] Documentation for tilcdc Devicetree Bindings
 
 This adds documentation for tilcdc devicetree bindings.
 ---
- .../devicetree/bindings/drm/tilcdc/panel.txt       | 59 ++++++++++++++++++++++
- .../devicetree/bindings/drm/tilcdc/slave.txt       | 18 +++++++
- .../devicetree/bindings/drm/tilcdc/tfp410.txt      | 21 ++++++++
- .../devicetree/bindings/drm/tilcdc/tilcdc.txt      | 29 +++++++++++
+ .../devicetree/bindings/drm/tilcdc/panel.txt       |   59 ++++++++++++++++++++
+ .../devicetree/bindings/drm/tilcdc/slave.txt       |   18 ++++++
+ .../devicetree/bindings/drm/tilcdc/tfp410.txt      |   21 +++++++
+ .../devicetree/bindings/drm/tilcdc/tilcdc.txt      |   29 ++++++++++
  4 files changed, 127 insertions(+)
  create mode 100644 Documentation/devicetree/bindings/drm/tilcdc/panel.txt
  create mode 100644 Documentation/devicetree/bindings/drm/tilcdc/slave.txt
@@ -167,5 +167,5 @@ index 0000000..fff10da
 +		ti,hwmods = "lcdc";
 +	};
 -- 
-1.9.1
+1.7.10.4
 

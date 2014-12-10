@@ -1,4 +1,4 @@
-From acb0f7f4d254c7fece07b06cf9f4801c7e685151 Mon Sep 17 00:00:00 2001
+From d02772f0f23d9e60a2edf59806197703515df03c Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Wed, 15 May 2013 20:44:34 +0300
 Subject: [PATCH 05/19] pruss: Make sure it works when no child nodes are
@@ -6,7 +6,7 @@ Subject: [PATCH 05/19] pruss: Make sure it works when no child nodes are
 
 Pruss shouldn't fail when no child nodes are present.
 ---
- drivers/uio/uio_pruss.c | 58 ++++++++++++++++++++++---------------------------
+ drivers/uio/uio_pruss.c |   58 +++++++++++++++++++++--------------------------
  1 file changed, 26 insertions(+), 32 deletions(-)
 
 diff --git a/drivers/uio/uio_pruss.c b/drivers/uio/uio_pruss.c
@@ -80,5 +80,5 @@ index 6f49ea1..5de4f11 100644
  	}
  
 -- 
-1.9.1
+1.7.10.4
 

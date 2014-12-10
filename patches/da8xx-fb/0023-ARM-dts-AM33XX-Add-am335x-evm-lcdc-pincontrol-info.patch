@@ -1,4 +1,4 @@
-From f6e6d6f1bf3c812621cad7f816a7856b96dd0ea3 Mon Sep 17 00:00:00 2001
+From 90fb333ce9fdd99b6a0e13ffbfe1ff669ec8c80b Mon Sep 17 00:00:00 2001
 From: "Manjunathappa, Prakash" <prakash.pm@ti.com>
 Date: Mon, 17 Dec 2012 15:29:44 +0530
 Subject: [PATCH 23/48] ARM: dts: AM33XX: Add am335x-evm lcdc pincontrol info
@@ -10,7 +10,7 @@ Update pin mux information for lcd panel on AM335X-EVM
 Signed-off-by: Manjunathappa, Prakash <prakash.pm@ti.com>
 Signed-off-by: Afzal Mohammed <afzal@ti.com>
 ---
- arch/arm/boot/dts/am335x-evm.dts | 34 +++++++++++++++++++++++++++++++++-
+ arch/arm/boot/dts/am335x-evm.dts |   34 +++++++++++++++++++++++++++++++++-
  1 file changed, 33 insertions(+), 1 deletion(-)
 
 diff --git a/arch/arm/boot/dts/am335x-evm.dts b/arch/arm/boot/dts/am335x-evm.dts
@@ -66,5 +66,5 @@ index d1a34cc..5eadd1e 100644
  
  	ocp {
 -- 
-1.9.1
+1.7.10.4
 

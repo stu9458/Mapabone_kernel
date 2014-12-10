@@ -1,4 +1,4 @@
-From a541530d742ad73748ab9b263c348f08724ef34f Mon Sep 17 00:00:00 2001
+From 7a1508f074d1e99e74f71cf6013dde6623338f02 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Thu, 3 Jan 2013 12:02:14 +0200
 Subject: [PATCH 025/184] OF: Export all DT proc update functions
@@ -8,8 +8,8 @@ Export them.
 
 Signed-off-by: Pantelis Antoniou <panto@antoniou-consulting.com>
 ---
- drivers/of/base.c  | 108 ++++++++++++++++++++++++++++-------------------------
- include/linux/of.h |  29 ++++++++++++++
+ drivers/of/base.c  |  108 ++++++++++++++++++++++++++++------------------------
+ include/linux/of.h |   29 ++++++++++++++
  2 files changed, 87 insertions(+), 50 deletions(-)
 
 diff --git a/drivers/of/base.c b/drivers/of/base.c
@@ -209,5 +209,5 @@ index aea3694..305b087 100644
  extern int of_alias_get_id(struct device_node *np, const char *stem);
  
 -- 
-1.9.1
+1.7.10.4
 

@@ -1,7 +1,7 @@
-From 2b22017bb3806362bd5f6622508a30f42cca0a15 Mon Sep 17 00:00:00 2001
+From fd541de6bde6f13d3792433ac89033e4b018aed0 Mon Sep 17 00:00:00 2001
 From: Dave Lambert <dave@lambsys.com>
 Date: Thu, 12 Dec 2013 12:02:16 -0600
-Subject: [PATCH 20/22] add argus ups cape support
+Subject: [PATCH 20/20] add argus ups cape support
 
 Signed-off-by: Dave Lambert <dave@lambsys.com>
 Signed-off-by: Robert Nelson <robertcnelson@gmail.com>
@@ -16,7 +16,7 @@ Signed-off-by: Robert Nelson <robertcnelson@gmail.com>
  create mode 100644 firmware/capes/cape-bone-argus-00A0.dts
 
 diff --git a/drivers/misc/cape/beaglebone/Kconfig b/drivers/misc/cape/beaglebone/Kconfig
-index 4937577..5264f59 100644
+index 0f44f7a..ae58216 100644
 --- a/drivers/misc/cape/beaglebone/Kconfig
 +++ b/drivers/misc/cape/beaglebone/Kconfig
 @@ -31,6 +31,13 @@ config CAPE_BEAGLEBONE_GEIGER
@@ -573,5 +573,5 @@ index 0000000..26ce46e
 +	};
 +};
 -- 
-1.9.1
+1.8.5.1
 

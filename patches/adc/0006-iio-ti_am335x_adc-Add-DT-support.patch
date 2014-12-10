@@ -1,4 +1,4 @@
-From 33abbc91030d596f46a0465f6a33a6a072249cbd Mon Sep 17 00:00:00 2001
+From 63e15a4a56f537f2578837e1af235b417523981b Mon Sep 17 00:00:00 2001
 From: "Patil, Rachna" <rachna@ti.com>
 Date: Wed, 12 Jun 2013 18:58:08 +0200
 Subject: [PATCH 06/20] iio: ti_am335x_adc: Add DT support
@@ -11,8 +11,8 @@ Signed-off-by: Pantelis Antoniou <panto@antoniou-consulting.com>
 Signed-off-by: Felipe Balbi <balbi@ti.com>
 Signed-off-by: Sebastian Andrzej Siewior <bigeasy@linutronix.de>
 ---
- drivers/iio/adc/ti_am335x_adc.c | 29 ++++++++++++++++++++++++-----
- drivers/mfd/ti_am335x_tscadc.c  |  1 +
+ drivers/iio/adc/ti_am335x_adc.c |   29 ++++++++++++++++++++++++-----
+ drivers/mfd/ti_am335x_tscadc.c  |    1 +
  2 files changed, 25 insertions(+), 5 deletions(-)
 
 diff --git a/drivers/iio/adc/ti_am335x_adc.c b/drivers/iio/adc/ti_am335x_adc.c
@@ -96,5 +96,5 @@ index ebce3d3..cca6a6c 100644
  	cell->pdata_size = sizeof(tscadc);
  
 -- 
-1.9.1
+1.7.10.4
 

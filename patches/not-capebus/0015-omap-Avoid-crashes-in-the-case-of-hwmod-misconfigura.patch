@@ -1,4 +1,4 @@
-From 6e7cc1c1270462aaa53017b5a7e0ec414d3ee770 Mon Sep 17 00:00:00 2001
+From cf781eb34a241404e78e776610172a218213d309 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Tue, 8 Jan 2013 15:19:52 +0200
 Subject: [PATCH 015/184] omap: Avoid crashes in the case of hwmod
@@ -50,7 +50,7 @@ Kernel panic - not syncing: Attempted to kill init! exitcode=0x0000000b!
 
 Signed-off-by: Pantelis Antoniou <panto@antoniou-consulting.com>
 ---
- arch/arm/mach-omap2/omap_hwmod.c | 8 ++++++--
+ arch/arm/mach-omap2/omap_hwmod.c |    8 ++++++--
  1 file changed, 6 insertions(+), 2 deletions(-)
 
 diff --git a/arch/arm/mach-omap2/omap_hwmod.c b/arch/arm/mach-omap2/omap_hwmod.c
@@ -80,5 +80,5 @@ index 4653efb..2b58e21 100644
  		oc->_clk = c;
  		/*
 -- 
-1.9.1
+1.7.10.4
 

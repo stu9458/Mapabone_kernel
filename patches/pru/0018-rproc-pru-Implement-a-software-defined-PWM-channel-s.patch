@@ -1,4 +1,4 @@
-From e3788c464a03a6857496996bfb8104982a31c8e3 Mon Sep 17 00:00:00 2001
+From f039177b15955f2729a276556df90a2ddee64a5f Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Fri, 12 Jul 2013 20:51:16 +0300
 Subject: [PATCH 18/19] rproc: pru: Implement a software defined PWM channel
@@ -10,7 +10,7 @@ everything is implemented by software on the PRUs.
 
 Signed-off-by: Pantelis Antoniou <panto@antoniou-consulting.com>
 ---
- drivers/remoteproc/pru_rproc.c | 223 ++++++++++++++++++++++++++++++++++++++---
+ drivers/remoteproc/pru_rproc.c |  223 +++++++++++++++++++++++++++++++++++++---
  1 file changed, 208 insertions(+), 15 deletions(-)
 
 diff --git a/drivers/remoteproc/pru_rproc.c b/drivers/remoteproc/pru_rproc.c
@@ -327,5 +327,5 @@ index ad2dfc7..6e42db6 100644
  	(void)pru_i_write_u32;
  	(void)pru_d_write_u32;
 -- 
-1.9.1
+1.7.10.4
 

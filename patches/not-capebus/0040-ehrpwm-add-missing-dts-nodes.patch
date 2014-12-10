@@ -1,17 +1,17 @@
-From 07292d42b288b4767aa1c6462242bde8045d8283 Mon Sep 17 00:00:00 2001
+From ab8bfa9af7aaff7348c3c796a099c0b6043fac9e Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Fri, 4 Jan 2013 10:51:47 +0200
 Subject: [PATCH 040/184] ehrpwm: add missing dts nodes
 
 ---
- arch/arm/boot/dts/am33xx.dtsi | 30 ++++++++++++++++++++++++++++++
+ arch/arm/boot/dts/am33xx.dtsi |   30 ++++++++++++++++++++++++++++++
  1 file changed, 30 insertions(+)
 
 diff --git a/arch/arm/boot/dts/am33xx.dtsi b/arch/arm/boot/dts/am33xx.dtsi
-index 3cab673..79d9451 100644
+index 5218fbe..662ff27 100644
 --- a/arch/arm/boot/dts/am33xx.dtsi
 +++ b/arch/arm/boot/dts/am33xx.dtsi
-@@ -412,6 +412,36 @@
+@@ -407,6 +407,36 @@
  			ti,timer-pwm;
  		};
  
@@ -49,5 +49,5 @@ index 3cab673..79d9451 100644
  			compatible = "ti,da830-rtc";
  			reg = <0x44e3e000 0x1000>;
 -- 
-1.9.1
+1.7.10.4
 

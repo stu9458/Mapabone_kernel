@@ -1,4 +1,4 @@
-From 0fcfe992e8bd69ec3d087764bcaa5f443ebcfa5a Mon Sep 17 00:00:00 2001
+From 327b8ddc0d1fad5e233e1318e00a113996bf92e5 Mon Sep 17 00:00:00 2001
 From: Sebastian Andrzej Siewior <bigeasy@linutronix.de>
 Date: Wed, 12 Jun 2013 18:58:02 +0200
 Subject: [PATCH 01/20] mfd: input: iio: ti_am335x_adc: use one structure for
@@ -14,10 +14,10 @@ the wrong pointer for ti_tscadc_dev and this has been fixed as well.
 
 Signed-off-by: Sebastian Andrzej Siewior <bigeasy@linutronix.de>
 ---
- drivers/iio/adc/ti_am335x_adc.c           |  5 +++--
- drivers/input/touchscreen/ti_am335x_tsc.c | 16 +++++++++-------
- drivers/mfd/ti_am335x_tscadc.c            |  8 ++++----
- include/linux/mfd/ti_am335x_tscadc.h      |  7 +++++++
+ drivers/iio/adc/ti_am335x_adc.c           |    5 +++--
+ drivers/input/touchscreen/ti_am335x_tsc.c |   16 +++++++++-------
+ drivers/mfd/ti_am335x_tscadc.c            |    8 ++++----
+ include/linux/mfd/ti_am335x_tscadc.h      |    7 +++++++
  4 files changed, 23 insertions(+), 13 deletions(-)
 
 diff --git a/drivers/iio/adc/ti_am335x_adc.c b/drivers/iio/adc/ti_am335x_adc.c
@@ -136,5 +136,5 @@ index c79ad5d..8114e4e 100644
 +
  #endif
 -- 
-1.9.1
+1.7.10.4
 

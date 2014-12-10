@@ -1,4 +1,4 @@
-From 97efdfc05e60ac29ac87f752b70b903a534e05a2 Mon Sep 17 00:00:00 2001
+From cde910b0c74c1cee8d042ab3d02d7176ddef8573 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Mon, 27 May 2013 17:14:23 +0300
 Subject: [PATCH 1/2] tps65217: Enable KEY_POWER press on AC loss / PWR_BUT
@@ -8,8 +8,8 @@ Some minor devm_* changes and DT support.
 
 Signed-off-by: Pantelis Antoniou <panto@antoniou-consulting.com>
 ---
- drivers/mfd/tps65217.c       | 121 ++++++++++++++++++++++++++++++++++++++++++-
- include/linux/mfd/tps65217.h |   6 +++
+ drivers/mfd/tps65217.c       |  121 +++++++++++++++++++++++++++++++++++++++++-
+ include/linux/mfd/tps65217.h |    6 +++
  2 files changed, 125 insertions(+), 2 deletions(-)
 
 diff --git a/drivers/mfd/tps65217.c b/drivers/mfd/tps65217.c
@@ -201,5 +201,5 @@ index 290762f..b138fa3 100644
  
  static inline struct tps65217 *dev_to_tps65217(struct device *dev)
 -- 
-1.9.1
+1.7.10.4
 

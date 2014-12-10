@@ -1,4 +1,4 @@
-From a06ecae11b71ea955df7f50c44e55c11c19bf2c4 Mon Sep 17 00:00:00 2001
+From 8fc6b2b658ad8ee04619febbb333566e044e733f Mon Sep 17 00:00:00 2001
 From: Sebastian Andrzej Siewior <bigeasy@linutronix.de>
 Date: Wed, 12 Jun 2013 18:58:22 +0200
 Subject: [PATCH 15/20] iio: ti_am335x_adc: check if we found the value
@@ -10,7 +10,7 @@ unit is busy performing the conversation for the HW events. In that case
 Acked-by: Jonathan Cameron <jic23@kernel.org>
 Signed-off-by: Sebastian Andrzej Siewior <bigeasy@linutronix.de>
 ---
- drivers/iio/adc/ti_am335x_adc.c | 8 ++++++--
+ drivers/iio/adc/ti_am335x_adc.c |    8 ++++++--
  1 file changed, 6 insertions(+), 2 deletions(-)
 
 diff --git a/drivers/iio/adc/ti_am335x_adc.c b/drivers/iio/adc/ti_am335x_adc.c
@@ -43,5 +43,5 @@ index a2b6ebd..624935c 100644
  }
  
 -- 
-1.9.1
+1.7.10.4
 

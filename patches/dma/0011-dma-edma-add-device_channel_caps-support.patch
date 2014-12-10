@@ -1,4 +1,4 @@
-From a1abd19654c964dde31fc6d2a37a999c136ad4c1 Mon Sep 17 00:00:00 2001
+From 2a6698cb61bb608323af7081b278e14efd9df3fc Mon Sep 17 00:00:00 2001
 From: Matt Porter <mporter@ti.com>
 Date: Thu, 18 Oct 2012 21:08:59 -0400
 Subject: [PATCH 11/35] dma: edma: add device_channel_caps() support
@@ -18,7 +18,7 @@ the max segment length cap.
 
 Signed-off-by: Matt Porter <mporter@ti.com>
 ---
- drivers/dma/edma.c | 27 +++++++++++++++++++++++++++
+ drivers/dma/edma.c |   27 +++++++++++++++++++++++++++
  1 file changed, 27 insertions(+)
 
 diff --git a/drivers/dma/edma.c b/drivers/dma/edma.c
@@ -81,5 +81,5 @@ index 06ea4b8..023c8f2 100644
  	dma->device_control = edma_control;
  	dma->dev = dev;
 -- 
-1.9.1
+1.7.10.4
 

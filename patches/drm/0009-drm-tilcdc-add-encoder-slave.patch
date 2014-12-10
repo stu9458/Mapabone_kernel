@@ -1,4 +1,4 @@
-From c4b742cc8f2d6f6c2ab6e389bad1299c2c1fb0cb Mon Sep 17 00:00:00 2001
+From c50fb1363321769f326375fae262a566680405a8 Mon Sep 17 00:00:00 2001
 From: Rob Clark <robdclark@gmail.com>
 Date: Tue, 22 Jan 2013 16:02:21 -0600
 Subject: [PATCH 09/12] drm/tilcdc: add encoder slave
@@ -7,10 +7,10 @@ Add output panel driver for i2c encoder slaves.
 
 Signed-off-by: Rob Clark <robdclark@gmail.com>
 ---
- drivers/gpu/drm/tilcdc/Makefile       |   1 +
- drivers/gpu/drm/tilcdc/tilcdc_drv.c   |   5 +-
- drivers/gpu/drm/tilcdc/tilcdc_slave.c | 376 ++++++++++++++++++++++++++++++++++
- drivers/gpu/drm/tilcdc/tilcdc_slave.h |  26 +++
+ drivers/gpu/drm/tilcdc/Makefile       |    1 +
+ drivers/gpu/drm/tilcdc/tilcdc_drv.c   |    5 +-
+ drivers/gpu/drm/tilcdc/tilcdc_slave.c |  376 +++++++++++++++++++++++++++++++++
+ drivers/gpu/drm/tilcdc/tilcdc_slave.h |   26 +++
  4 files changed, 407 insertions(+), 1 deletion(-)
  create mode 100644 drivers/gpu/drm/tilcdc/tilcdc_slave.c
  create mode 100644 drivers/gpu/drm/tilcdc/tilcdc_slave.h
@@ -475,5 +475,5 @@ index 0000000..2f85048
 +
 +#endif /* __TILCDC_SLAVE_H__ */
 -- 
-1.9.1
+1.7.10.4
 

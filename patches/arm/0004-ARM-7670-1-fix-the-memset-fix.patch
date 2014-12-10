@@ -1,7 +1,7 @@
-From e19d49482a0d47fad60721bf07f2969cfac42b0c Mon Sep 17 00:00:00 2001
+From 318b2e3463c1ce27e7de1c592b46d70e49d8b2d7 Mon Sep 17 00:00:00 2001
 From: Nicolas Pitre <nicolas.pitre@linaro.org>
 Date: Tue, 12 Mar 2013 13:00:42 +0100
-Subject: [PATCH 4/5] ARM: 7670/1: fix the memset fix
+Subject: [PATCH 4/4] ARM: 7670/1: fix the memset fix
 
 Commit 455bd4c430b0 ("ARM: 7668/1: fix memset-related crashes caused by
 recent GCC (4.7.2) optimizations") attempted to fix a compliance issue
@@ -21,7 +21,7 @@ Signed-off-by: Nicolas Pitre <nico@linaro.org>
 Tested-by: Alexander Holler <holler@ahsoftware.de>
 Signed-off-by: Russell King <rmk+kernel@arm.linux.org.uk>
 ---
- arch/arm/lib/memset.S | 33 +++++++++++++--------------------
+ arch/arm/lib/memset.S |   33 +++++++++++++--------------------
  1 file changed, 13 insertions(+), 20 deletions(-)
 
 diff --git a/arch/arm/lib/memset.S b/arch/arm/lib/memset.S
@@ -79,5 +79,5 @@ index d912e73..94b0650 100644
 +	b	1b
  ENDPROC(memset)
 -- 
-1.9.1
+1.7.10.4
 

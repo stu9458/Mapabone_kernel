@@ -1,4 +1,4 @@
-From 4402846adc0c242e1c8f034d519eadcfba34a2ba Mon Sep 17 00:00:00 2001
+From fd01a713e8ed3dd8253d37d4e0e34538700606d6 Mon Sep 17 00:00:00 2001
 From: Alexander Hiam <hiamalexander@gmail.com>
 Date: Thu, 30 Jan 2014 11:44:05 -0500
 Subject: [PATCH 22/22] beaglebone capes: Added overlays for CBB-Serial cape
@@ -19,10 +19,10 @@ Signed-off-by: Alexander Hiam <hiamalexander@gmail.com>
  create mode 100644 firmware/capes/cape-CBB-Serial-r01.dts
 
 diff --git a/firmware/Makefile b/firmware/Makefile
-index e45d10b..4b59f44 100644
+index ecc54d9..56b0b50 100644
 --- a/firmware/Makefile
 +++ b/firmware/Makefile
-@@ -221,6 +221,12 @@ fw-shipped-$(CONFIG_CAPE_BEAGLEBONE) += \
+@@ -222,6 +222,12 @@ fw-shipped-$(CONFIG_CAPE_BEAGLEBONE) += \
  # the Tester cape (tester-side)
  fw-shipped-$(CONFIG_CAPE_BEAGLEBONE) += cape-bone-tester-00A0.dtbo
  
@@ -274,5 +274,5 @@ index 0000000..0309bd2
 +  };
 +};
 -- 
-1.9.1
+1.8.5.3
 

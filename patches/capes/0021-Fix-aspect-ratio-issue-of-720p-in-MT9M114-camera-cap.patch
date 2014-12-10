@@ -1,7 +1,7 @@
-From 75e2cbcfe4952bfc9c342f36886542519c7e25b8 Mon Sep 17 00:00:00 2001
+From 3dc6e3f4eb7df083896a6bc9bca0a1b745f3dc3d Mon Sep 17 00:00:00 2001
 From: Robert Nelson <robertcnelson@gmail.com>
 Date: Thu, 2 Jan 2014 10:11:58 -0600
-Subject: [PATCH 21/22] Fix aspect ratio issue of 720p in MT9M114 camera cape
+Subject: [PATCH 21/21] Fix aspect ratio issue of 720p in MT9M114 camera cape
 
 Signed-off-by: vvdn <anithamol.benny@vvdntech.com>
 ---
@@ -55,5 +55,5 @@ index 6eab204..9df2119 100644
  
  static const struct mt9m114_format {
 -- 
-1.9.1
+1.8.5.2
 

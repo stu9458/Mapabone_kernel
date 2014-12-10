@@ -1,11 +1,11 @@
-From 179d0c14ee0ddab564439c4240447914195e5010 Mon Sep 17 00:00:00 2001
+From 9e46a05a94f37a6f86dc97b1acddb4ccf31c61bf Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Thu, 7 Mar 2013 09:54:38 +0200
 Subject: [PATCH 110/184] pinmux-helper: Switch to using kmalloc
 
 devm_kfree warned out... why? no idea.
 ---
- drivers/misc/cape/beaglebone/bone-pinmux-helper.c | 9 +++++----
+ drivers/misc/cape/beaglebone/bone-pinmux-helper.c |    9 +++++----
  1 file changed, 5 insertions(+), 4 deletions(-)
 
 diff --git a/drivers/misc/cape/beaglebone/bone-pinmux-helper.c b/drivers/misc/cape/beaglebone/bone-pinmux-helper.c
@@ -64,5 +64,5 @@ index 84058e1..5074365 100644
  	devm_kfree(dev, data);
  
 -- 
-1.9.1
+1.7.10.4
 
