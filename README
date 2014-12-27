@@ -1,2 +1,1 @@
-The file stand 3.14.17 kernel for Mapabone.
-Please use the kernel with spacial u-boot x-loader to booting command step by SSH in the ethernet-over-usb.
+The kernel file 3.14.17 can booting linux with spacial u-boot image.
