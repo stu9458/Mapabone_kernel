@@ -1,0 +1,31 @@
+From cb8ae60438c9d4f00de6a6240a7192a463b9eb77 Mon Sep 17 00:00:00 2001
+From: Robert Nelson <robertcnelson@gmail.com>
+Date: Thu, 13 Mar 2014 14:29:32 -0500
+Subject: [PATCH 2/2] capes: Makefile
+
+Signed-off-by: Robert Nelson <robertcnelson@gmail.com>
+---
+ arch/arm/boot/dts/Makefile | 6 ++++++
+ 1 file changed, 6 insertions(+)
+
+diff --git a/arch/arm/boot/dts/Makefile b/arch/arm/boot/dts/Makefile
+index 0320303..a96c269 100644
+--- a/arch/arm/boot/dts/Makefile
++++ b/arch/arm/boot/dts/Makefile
+@@ -225,7 +225,13 @@ dtb-$(CONFIG_ARCH_OMAP2PLUS) += omap2420-h4.dtb \
+ 	am335x-evm.dtb \
+ 	am335x-evmsk.dtb \
+ 	am335x-bone.dtb \
++	am335x-bone-ttyO1.dtb \
++	am335x-bone-ttyO2.dtb \
++	am335x-bone-ttyO4.dtb \
+ 	am335x-boneblack.dtb \
++	am335x-boneblack-ttyO1.dtb \
++	am335x-boneblack-ttyO2.dtb \
++	am335x-boneblack-ttyO4.dtb \
+ 	am335x-nano.dtb \
+ 	am335x-base0033.dtb \
+ 	am3517-evm.dtb \
+-- 
+1.9.1
+
